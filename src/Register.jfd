@@ -1,0 +1,55 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.7" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "FakeSteam"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:250:p, comp label2:::p:185:p}, seq l {space :p:213:p, par l:::p {seq {comp label3:::p:100:p, space u:::p, comp textField1:::p:177:p}, seq l {par t {comp button1:::p:92:p, comp label4:::p:100:p}, par l {seq l {space u:::p, comp textField2:::p:177:p}, seq l {space :p:99:p, comp button2:::::x}}}}}}, space ::181:x}}"
+			"$verticalGroup": "par l {seq l {space :p:30:p, comp label2:::p:50:p, space :p:55:p, par b {comp label3::b:p:40:p, comp textField1::b:p::p}, space :p:48:p, par b {comp label4::b:p:40:p, comp textField2::b:p::p}, space :p:57:p, par b {comp button2::b:p:38:p, comp button1::b:p:38:p}, space ::51:x}}"
+		} ) {
+			name: "this"
+			"title": new FormMessage( null, "this.title_2" )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": new FormMessage( null, "label2.text_2" )
+				"horizontalAlignment": 0
+				"font": new java.awt.Font( "宋体", 0, 16 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": new FormMessage( null, "label3.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": new FormMessage( null, "label4.text_2" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": new FormMessage( null, "button1.text" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": new FormMessage( null, "button2.text" )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 685, 440 )
+		} )
+		add( new FormComponent( "javax.swing.JLabel" ) {
+			name: "label1"
+			"text": new FormMessage( null, "label1.text_2" )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 30, 0 )
+		} )
+	}
+}

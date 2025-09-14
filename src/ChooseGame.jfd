@@ -1,0 +1,122 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.7" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundleName": "FakeSteam"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:75:p, par l {comp label7::l:p:90:p, comp button6::l:p:90:p, comp label1::l:p:90:p, comp button1::l:p:90:p}, space :p:40:p, par l {comp label8::l:p:90:p, comp button7::l:p:90:p, comp label4::l:p:90:p, comp button2::l:p:90:p}, space :p:40:p, par l {seq l {par l:::p {comp label6::::90:x, comp button3::::90:x}, space :p:40:p, par t {comp label2:::p:90:p, comp button4:::p:95:p}, space :p:40:p, par l {comp button11:::p:90:p, comp label13:::p:90:p}}, seq l {par l {comp label9::l:p:90:p, comp button8::l:p:90:p}, space :p:40:p, par l {comp label10:::p:90:p, comp button9:::p:90:p}, space :p:40:p, par l {comp label12:::p:90:p, comp button12:::p:90:p}}}}, seq l {space :p:219:p, comp label14:::p:283:p}}, space ::68:x}}"
+			"$verticalGroup": "par l {seq {space :p:40:p, comp label14:::p:37:p, space :p:51:p, par t {comp button2::t:p:65:p, comp button1::t:p:65:p, comp button3::t:p:65:p, comp button4::t:p:65:p, comp button11:::p:65:p}, space :::p, par b {comp label6::b:p:30:p, comp label4::b:p:30:p, comp label1::b:p:30:p, comp label2::b:p:30:p, comp label13::b:p:30:p}, space :p:70:p, par t {par l {par t {comp button6:::p:65:p, comp button7:::p:65:p, comp button8:::p:65:p}, comp button12:::p:65:p}, comp button9:::p:65:p}, space :::p, par b {comp label7::b:p:30:p, comp label8::b:p:30:p, comp label9::b:p:30:p, comp label10::b:p:30:p, comp label12::b:p:30:p}, space ::59:x}}"
+		} ) {
+			name: "this"
+			"title": new FormMessage( null, "this.title" )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/saolei.png" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": new FormMessage( null, "label1.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/pacman.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/kunjidazhan.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/russiablock.png" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": new FormMessage( null, "label2.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": new FormMessage( null, "label4.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": new FormMessage( null, "label6.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/bomberman.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button7"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/pindu.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button8"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/wuziqi.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button9"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/tantanqiu.png" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": new FormMessage( null, "label7.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": new FormMessage( null, "label8.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": new FormMessage( null, "label9.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label10"
+				"text": new FormMessage( null, "label10.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button11"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/jinziqi.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button12"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/gameicon/snake.png" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label12"
+				"text": new FormMessage( null, "label12.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label13"
+				"text": new FormMessage( null, "label13.text" )
+				"horizontalAlignment": 0
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label14"
+				"text": new FormMessage( null, "label14.text" )
+				"horizontalAlignment": 0
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 20, true )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 760, 490 )
+		} )
+		add( new FormComponent( "javax.swing.JLabel" ) {
+			name: "游戏库"
+			"text": new FormMessage( null, "游戏库.text" )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 20, 0 )
+			"size": new java.awt.Dimension( 80, 30 )
+		} )
+	}
+}

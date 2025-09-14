@@ -1,0 +1,62 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.7" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.bundleName": "FakeSteam"
+	"i18n.keyPrefix": "FakeSteam"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"title": "Fake Steam"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {comp buttonBar:::p::p, space :0:20:x}, seq t {space :::x, comp label1:::p:484:p, space :p:65:p}, seq l {space :p:122:p, par l {seq {space :p:52:p, comp okButton:::p:108:p, space ::58:x, comp cancelButton:::p:98:p}, seq {par l {comp label2:::p:102:p, comp label3:::::x}, space :::p, par l:::p {comp textField1::::208:x, comp textField2::::208:x}}}, space ::201:x}}"
+				"$verticalGroup": "par l {seq {space :p:31:p, comp label1:::p:54:p, space :p:68:p, par b {comp label2::b:p:31:p, comp textField1::b:p::p}, space :p:43:p, par b {comp label3::b:p:30:p, comp textField2::b:p::p}, space :p:86:p, par b {comp okButton::b:p::p, comp cancelButton::b:p::p}, space :p:28:p, comp buttonBar:::p::p}}"
+				"honorsVisibility": false
+			} ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {space :0:619:x}"
+					"$verticalGroup": "par l {space :0:30:x}"
+				} ) {
+					name: "buttonBar"
+					"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Welcome to Fake Steam"
+					"horizontalAlignment": 0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "    用户名称："
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "密码："
+					"horizontalAlignment": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "okButton"
+					"text": "登录"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "cancelButton"
+					"text": "注册"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "Register", true ) )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 665, 510 )
+		} )
+	}
+}
